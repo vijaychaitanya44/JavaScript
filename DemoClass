@@ -1,0 +1,26 @@
+class EmployeeDetails
+{
+ 
+
+    constructor(name,id){
+        this.name=name
+        this.id=id
+    }
+   
+/*
+    setDetails(name,id){
+        this.name=name
+        this.id=id
+    }
+    */
+
+}
+
+let emp1 = new EmployeeDetails("vijay",66);
+console.log(emp1.name);
+console.log(emp1.id);
+
+
+
+
+
